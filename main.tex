@@ -1,0 +1,81 @@
+\documentclass[10pt,xcolor=dvipsnames]{beamer}
+\usetheme[sectionpage=none,progressbar=foot,block=fill]{metropolis}
+\usefonttheme[onlymath]{serif}
+
+\usepackage[dvipsnames]{xcolor}
+\setbeamercolor{title separator}{fg = Gray}
+\setbeamercolor{progress bar in head/foot}{fg=Gray}
+
+\usepackage[english]{babel}
+\usepackage{cmap}       
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+
+\usepackage{exscale}
+\usepackage[l2tabu, orthodox]{nag}
+
+\usepackage[hyperref=true, useprefix=true, maxbibnames=8, backend=biber]{biblatex}
+\addbibresource{bibliography.bib}
+\usepackage{subcaption}
+\usepackage{booktabs}
+\usepackage{url}
+\usepackage{multirow}
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{amsfonts}
+\usepackage{thmtools}		
+\usepackage{mleftright}
+
+\usepackage{fixmath}
+\usepackage{units}
+
+\usepackage{enumitem}
+\setlist[enumerate]{noitemsep, topsep=0.5\topsep}
+\setlist[description]{noitemsep, topsep=0.5\topsep}
+\setlist[itemize]{noitemsep, topsep=0.5\topsep}
+
+\usepackage[capitalise,noabbrev]{cleveref}   
+\usepackage{microtype}
+\usepackage{ellipsis}
+\usepackage{hfoldsty}
+
+\usepackage{algorithm}
+\usepackage{algorithmicx}
+\usepackage{algpseudocode}
+\algdef{SE}{ParForAllLoop}{EndParForAllLoop}[1]{\textbf{parallel for}\(\mbox{#1}\) \textbf{do}}{\textbf{end}}%
+
+\usepackage{appendixnumberbeamer}
+\usepackage[scale=2]{ccicons}
+
+% Select a font. 
+%\usepackage{helvet}
+%\usepackage{cmbright}
+%\usepackage{tgadventor}
+\usepackage{tgheros}
+
+\newcommand{\new}[1]{\emph{#1}}
+\newcommand{\cA}{\ensuremath{\mathcal A}}
+\newcommand{\fA}{\ensuremath{\mathfrak{A}}}
+\newcommand{\bA}{\ensuremath{\mathbb{A}}}
+
+\title{Talk Title}
+\subtitle{Subtitle}
+\date{\today}
+\author{Christopher Morris}
+\institute{TU Dortmund University, Germany}
+%\titlegraphic{\hfill\includegraphics[scale=0.24]{somegraphic.pdf}}
+
+\begin{document}
+\maketitle
+
+\section{Motivation}
+\begin{frame}[fragile]{Some title}
+	This is a sentence.
+\begin{block}{A Block}
+	Some text.
+\end{block}
+\end{frame}
+
+\end{document}
